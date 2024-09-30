@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nooni-Home</title>
+    <link rel="stylesheet" href="../bootstrap5/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://nooni-be87.kxcdn.com/nooni/wp-content/themes/nooni/images/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/card.css" />
+  </head>
+  <body>
+    <div class="pre-loader"></div>
+    <div class="main-page"><div class="light">
+      
+      <button id="modeBtn"><i style="padding: 10px;" class="fa-regular fa-moon"></i></button>
+      <button style="position: fixed;" id="lang-btn" class="btn btn-warning">AZ</button>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+      <div id="google_translate_element"></div>
+
+      <div style="position: fixed; z-index: 999; top: 0" class="head"></div>
+      <header style="position: fixed; z-index: 999; top: 40px"></header>
+      <main style="margin-top: 70px">
+        <swiper-container class="mySwiper">
+          <swiper-slide>
+            <div class="container box">
+              <div class="text">
+                <p class="sale lang">Sale off 20%</p>
+                <h1 class="lang">Lamps & Lights Great Low Prices</h1>
+                <p class="lang">Free Standart Shopping with 40$</p>
+                <p class="shop lang">Shop Now</p>
+              </div>
+              <div style="width: 50%;" id="img-swiper"  class="img">
+                <img style="height: 70vh;margin-top: 60px;" src="../img/slide-2-home1-1.png" alt="" />
+              </div></div
+              ></swiper-slide>
+              <swiper-slide>
+                <div class="box">
+                  <div class="text">
+                    <p class="sale lang">Sale off 25%</p>
+                    <h1 class="lang">Chairs Settings You 'll love</h1>
+                    <p class="lang">Free Standart Shopping with 54$</p>
+                    <p class="shop lang">Shop Now</p>
+                  </div>
+                  <div id="img-swiper">
+                    <img src="../img/slide-1-home1-2.png" alt="" />
+                  </div>
+                </div>
+              </swiper-slide>
+
+          <swiper-slide
+            ><div class="container box">
+              <div class="text">
+                <p class="sale lang">Sale off 30%</p>
+                <h1 class="lang"> Discovery Living Room Tables</h1>
+                <p class="lang">Free Standart Shopping with 34$</p>
+                <p class="shop lang">Shop Now</p>
+              </div>
+              <div id="img-swiper" class="img">
+                <img
+                  id="last-slider-img"
+                  src="../img/slide-3-home1-1.png"
+                  alt=""
+                />
+              </div></div
+          ></swiper-slide>
+        </swiper-container>
+      </main>
+      <section class="container my-5">
+        <div  class="third">
+          <div  class="third-left">
+            <div data-aos="zoom-in-up"
+              style="
+                background-image: url(../img/banner-0.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 410px;
+              "
+              class="third-left-up"
+            >
+              <h1>
+                UP To 40% Off <br />
+                Top Lamp Brands
+              </h1>
+              <h6>Shop Now</h6>
+            </div>
+            <div data-aos="zoom-in-up"
+              style="background-image: url(../img/banner-1.jpg); height: 340px"
+              class="third-left-down"
+            >
+              <p>New Products</p>
+              <h1>Up To 25% Off Cabinets</h1>
+              <h6>Shop Now</h6>
+            </div>
+          </div>
+          <div data-aos="zoom-in-up"
+            style="background-image: url(../img/banner-2.jpg); height: 750px"
+            class="third-right"
+          >
+            <div class="container">
+              <p>BIG SALE</p>
+              <h1>
+                UP To 40% Off <br />
+                Top Lamp Brands
+              </h1>
+              <h6>Shop Now</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div class="text my-5">
+        <div class="container">
+          <div data-aos="zoom-in-up" class="right"><h1>Best Modern Furniture</h1></div>
+          <a style="right: 0px; text-align: center;padding: 5px;display: flex;align-items: center;" class="btn btn-warning" href="../pages/shop.html">See All</a>
+          
+        </div>
+      </div>
+
+      <div class="container">
+        <ol class="row"></ol>
+      </div>
+
+      <div data-aos="zoom-in" class="video mt-5">
+        <video style="display: flex;align-items: center;justify-content: center;" autoplay muted loop id="myVideo">
+          <source src="../video/video for pritect.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom" class="nooni-footer"></div>
+    
+    </div></div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="../bootstrap5/js/bootstrap.bundle.js"></script>
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          900: {
+            items: 2,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+    </script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nooni-Blog</title>
+    <link rel="stylesheet" href="../bootstrap5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/blog.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="https://nooni-be87.kxcdn.com/nooni/wp-content/themes/nooni/images/favicon.ico" type="image/x-icon">
+ 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   
+  </head>
+  <body><div class="light">
+      <button id="modeBtn"><i style="padding: 10px;" class="fa-regular fa-moon"></i></button>
+      <button style="position: fixed;" id="lang-btn" class="btn btn-warning">AZ</button>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <div style="position: fixed;top: 0;z-index: 999;" class="head"></div>
+      <header style="position: fixed;top: 40px;z-index: 99999;"></header>
+      <p style="margin-top: 150px;" class="text-center lang">Home / Blog</p>
+
+      <h1 style="font-size: 1.9rem;" class="text-center my-4 lang">Blog Noon’i</h1>
+
+    
+    <!-- <div class="serach">
+      <div class="container d-flex justify-content-center">
+        <input id="searchInput" style="width: 30%;" type="search"><button  class="btn btn-warning">Search</button>
+      </div>
+    </div>
+     -->
+    
+    
+    
+     <div class="search">
+      <div class="container d-flex justify-content-center">
+        <input placeholder="Search..." autocomplete="off" id="searchInput" style="width: 40%;" type="search">
+      </div>
+    </div>
+    <div class="container"><div id="searchResults" style="display: none;">
+      <div style="width: 100%;" id="results-con"></div>
+    </div></div>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="container justify-content-center d-flex my-5">
+      <div style="width: 100%" id="ip" class="row g-5"></div>
+    </div>
+
+    <div  class="container my-5 mb-5">
+      <div class="owl-carousel owl-theme mt-5">
+        <div style="margin-top: 150px;"  class="item">
+          <div class="d-flex">
+            <div  class="img">
+              <img
+                style="border-radius: 50%; height: 150px;width: 150px;"
+                src="https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2023/05/outdoor-310x310.jpg"
+                alt=""
+              />
+            </div>
+            <div class="text">
+              <h6 style="margin-top: 0px; margin-left: 0px">Chair</h6>
+              <p style="margin-left: 0px">19 product</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top: 150px;" class="item">
+          <div class="d-flex">
+            <div class="img">
+              <img
+                style="border-radius: 50%; height: 150px;width: 150px;"
+                src="https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2023/04/sofa-310x310.jpg"
+                alt=""
+              />
+            </div>
+            <div class="text">
+              <h6 style="margin-top: 0px; margin-left: 0px">Table</h6>
+              <p style="margin-left: 0px">16 product</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top: 150px;" class="item">
+          <div class="d-flex">
+            <div class="img">
+              <img
+                style="border-radius: 50%; height: 150px;width: 150px;"
+                src="https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2023/05/living-room-310x310.jpg"
+                alt=""
+              />
+            </div>
+            <div class="text">
+              <h6 style="margin-top: 0px; margin-left: 0px">Bed</h6>
+              <p style="margin-left: 0px">10 product</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top: 150px;" class="item">
+          <div class="d-flex">
+            <div class="img">
+              <img
+                style="border-radius: 50%; height: 150px;width: 150px;"
+                src="https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2023/04/bed-310x310.jpg"
+                alt=""
+              />
+            </div>
+            <div class="text">
+              <h6 style="margin-top: 0px; margin-left: 0px">Lamp</h6>
+              <p style="margin-left: 0px">12 product</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top: 150px;" class="item">
+          <div class="d-flex">
+            <div class="img">
+              <img
+                style="border-radius: 50%; height: 150px;width: 150px;"
+                src="https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2023/05/dining-310x310.jpg"
+                alt=""
+              />
+            </div>
+            <div class="text">
+              <h6 style="margin-top: 0px; margin-left: 0px">Cabinet</h6>
+              <p style="margin-left: 0px">12 product</p>
+            </div>
+          </div>
+        </div>
+     
+        
+      </div>
+    </div>
+    
+
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom" class="nooni-footer"></div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        autoplay:true,
+        autoplayTimeout:2500,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          900: {
+            items: 2,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+    </script>
+
+    <script src="../../assets/bootstrap5/js/bootstrap.bundle.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/blog.js"></script>
+  
+  </div></body>
+</html>

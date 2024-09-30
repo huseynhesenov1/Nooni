@@ -1,0 +1,130 @@
+[
+    {
+        "id":1,
+        "image": "https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2023/03/39-2-450x572.jpg",
+        "title":{
+            "az":"Gardashlar Mebel fabriki yüksək keyfiyyətli hərbi mebellər təqdim edir. Hərbi mebellər bölməmizdə dayanıqlı, keyfiyyətli hərbi mebel çeşidləri yer alır. Hərbi hissələr və hərbi məqsədlər üçün istehsal olunan bu məhsullar ağır yük götürmə qabilliyyəti",
+            "en":"Gardashlar Furniture factory offers high-quality military furniture. Our military furniture section includes durable, high-quality military furniture .These products, manufactured for military units and military purposes, are capable of carrying heavy loads"
+        } ,
+        "color":{
+            "en":"White",
+            "az":"Ağ"
+            }
+         ,
+        "price": 500,
+        "stock": 10
+    },
+    {
+        "id":2,
+        "image": "https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2022/10/blog-13.jpg",
+        "title":{
+            "az":"Uşaq yataq otağı dəstində nə var?",
+            "en":"What’s in a Child’s Bedroom Set?"
+        } , 
+        "color":{
+            "en": "Black",
+            "az":"Qara"
+        },
+        "price": 600,
+        "stock": 11
+    },
+    {
+        "id":3,
+        "image": "https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2022/10/blog-6.jpg",
+        "title":{
+            "az":"Müştəri zövqü mebel alış-verişini asanlaşdırır",
+            "en":"Customer Delight Makes Furniture Shopping Easy"
+        } ,
+        "color":{
+            "en": "Red",
+            "az":"Qırmızı"
+        },
+        "price": 700,
+        "stock": 12
+    },
+    {
+        "id":4,
+        "image": "https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2022/10/blog-4.jpg",
+        "title":{
+            "az":"Feng Shui nədir və onu bəzəyərkən necə istifadə edə bilərəm?",
+            "en":"What is Feng Shui and How Can I Use It When I Decorate?"
+        } ,  
+        "color":{
+            "en": "Black",
+            "az":"Qara"
+        },
+        "price": 800,
+        "stock": 13
+    },
+    {
+        "id":5,
+        "image": "https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2022/10/blog-3.jpg",
+        "title":{
+            "az":"Sizi özünə cəlb edən qonaq otağının sirləri",
+            "en":"The Secrets to a Living Room that Draws You In"
+        } , 
+        "color":{
+            "en": "White",
+            "az":"Ağ"
+        },
+        "price": 900,
+        "stock": 14
+    }
+    ,
+    {
+        "id":6,
+        "image": "https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2022/10/blog-11-1536x1112.jpg",
+        "title":{
+            "az":"Kafe və restoran mebelləri fərqli model və qiymətlərdə təklif olunur. İstirahət və iş məqsədilə üz tutulan bu məkanların zövqlü şəkildə bəzədilməsi müştərilərin ilk gözləntilərindən biridir",
+            "en":"The Secrets to a Living Room that Draws You In"
+        } ,
+        "color":{
+            "en": "White",
+            "az":"Ağ"
+        },
+        "price": 1000,
+        "stock": 15
+    },
+    {
+        "id":7,
+        "image": "https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2022/10/blog-4.jpg",
+        "title":{
+            "az":"Rəhbər dəstləri fərqli üslublarda dizayn edilir ki, hər bir kəsin zövqnü oxşaya bilsin. Məlum məsələdir ki, zövqlər müxtəlifdir. Məhz bu səbəblə çox çeşiddə məhsullar istehsal olunur və geniş seçim imkanı ilə müştərilərə təqdim edilir",
+            "en":"Guide sets are designed in different styles to suit everyone's taste. It is a well-known fact that tastes are different. It is for this reason that a wide variety of products are produced and offered to customers with a wide choice"
+        } ,
+        "color":{
+            "en": "Black",
+            "az":"Qara"
+        },
+        "price": 400,
+        "stock": 1
+    },
+    {
+        "id":8,
+        "image": "https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2022/10/blog-1.jpg",
+        "title":{
+            "az":"Menecer dəstləri deyildikdə cəlbedici görünüşə sahib masa və stul dəsti nəzərdə tutulur. Dəstə eyni zamanda dolab da daxildir. Adətən rəhbər dəstlərdən fərqli olaraq burada divan və yaxud kreslolar mövcud deyildir. ",
+            "en":"When we say executive sets, we mean a table and chair set with an attractive appearance. The set also includes a wardrobe. Unlike executive suites, there are no sofas or chairs here."
+        } , 
+        "color":{
+            "en": "Red",
+            "az":"Qırmızı"
+        },
+        "price": 450,
+        "stock": 8
+    },
+    {
+        "id":9,
+        "image": "https://nooni-be87.kxcdn.com/nooni/wp-content/uploads/2022/10/blog-13.jpg",
+        "title":{
+            "az":"Gardashlar Mebel fabriki yüksək keyfiyyətli hərbi mebellər təqdim edir. Hərbi mebellər bölməmizdə dayanıqlı, keyfiyyətli hərbi mebel çeşidləri yer alır. Hərbi hissələr və hərbi məqsədlər üçün istehsal olunan bu məhsullar ağır yük götürmə qabilliyyəti",
+            "en":"Gardashlar Furniture factory offers high-quality military furniture. Our military furniture section includes durable, high-quality military furniture .These products, manufactured for military units and military purposes, are capable of carrying heavy loads"
+        } ,
+        "color":{
+            "en": "White",
+            "az":"Ağ"
+        },
+        "price": 550,
+        "stock": 7
+    }
+]

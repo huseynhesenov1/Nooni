@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nooni-Wishlist</title>
+    <link rel="stylesheet" href="../bootstrap5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/blog.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="https://nooni-be87.kxcdn.com/nooni/wp-content/themes/nooni/images/favicon.ico" type="image/x-icon">
+ 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <style>
+      #search-dark{
+  color: black;
+}
+
+
+body  #foot ul li a{
+  background-color: #fff;
+  color: black;
+}
+
+
+.urek{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#modeBtn {
+  display: flex;
+  position: fixed;
+  top: 120px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#modeBtn:hover {
+  background-color: #555;
+}
+body .dark {
+  background-color: black;
+  color: #fff;
+}
+body .light #foot ul li a{
+  color: black;
+}
+body .dark #foot ul li a{
+  background-color: black;
+  color: #fff;
+}
+body .dark li{
+  color: #fff;
+}
+body .dark #myBtn{
+  background-color: #fff;
+  color: black;
+}
+body .dark header{
+  color: #fff;
+  background-color: black;
+  border-bottom: 1px solid #fff;
+  border-top: 0.1px solid #4e4949;
+}
+body .dark header .container .acer i{
+  color: #fff;
+  background-color: black;
+}
+body .dark input:checked~nav{
+  color: #fff;
+  background-color: black;
+}
+body .dark input:checked~nav ul li a{
+  color: #fff;
+}
+body .dark .container form label{
+  color: #fff;
+}
+body .dark #shopimg{
+  filter: invert(1);
+  object-fit:contain;
+}
+body .dark #footer-loqo-dark{
+  filter: invert(1);
+  object-fit:contain;
+}
+body .light #footer-loqo-dark{
+  object-fit:contain;
+}
+body .dark #search-dark{
+  color: #fff;
+}
+body .light #search-dark{
+  color: black;
+}
+body .light th{
+  color: black;
+  background-color: #fff;
+}
+body .dark th{
+  color: #fff;
+  background-color: black;
+}
+body .light td{
+  color: black;
+  background-color: #fff;
+}
+body .dark td{
+  color: #fff;
+  background-color: black;
+}
+body .dark .drk{
+  color: #fff;
+  background-color: black;
+  border: 1px solid #fff;
+}
+body .dark .drk1{
+  color: #fff;
+  background-color: black;
+  border: 1px solid #fff;
+}
+.head{
+  z-index: 9999;
+}
+header{
+  z-index: 55554;
+}
+.silDugmesi{
+  border: none;
+  background: none;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  
+}
+    </style>
+
+  </head>
+  <body>
+      
+
+   
+  <div class="light">
+    <div style="position: fixed;top: 0;" class="head"></div>
+      <header style="position: fixed;top: 40px;"></header>
+    <button id="modeBtn">Dark</button>
+    <button style="position: fixed;padding: 10px;" id="lang-btn" class="btn btn-warning">AZ</button>
+    <h1 style="margin-top: 137px;" class="text-center lang animate__animated animate__infinite animate__slower animate__flash">Your Wishlist</h1>
+    <h1 style="margin-top: 37px; margin-bottom: 20px;" class="text-center urek">❤</h1>
+    <div style="width: 100%; overflow: auto;" class="container">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"># </th>
+                <th scope="col">Photo</th>
+                <th scope="col">Title</th>
+                <th scope="col">Price</th>
+                <th scope="col">Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+
+
+            </tbody>
+          </table>
+    </div>
+    
+    
+    
+    <div style="display: flex;align-items: center; justify-content: center;" class="container">
+      <button onclick="clearWish()" class="btn btn-dark me-5 drk1"> Reset</button>
+      <a href="shop.html"  class="btn btn-outline-dark drk">Go to Shop</a>
+    </div>
+    
+    
+   
+    
+    
+    
+    
+
+  
+  
+
+  <div class="nooni-footer"></div>
+  </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+    <script src="../../assets/bootstrap5/js/bootstrap.bundle.js"></script>
+    <script src="../js/script.js"></script>
+    <!-- <script src="../js/shop.js"></script> -->
+    <script src="../js/wishlist.js"></script>
+  
+</body>
+</html>

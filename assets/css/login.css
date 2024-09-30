@@ -1,0 +1,470 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.head .container{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+.head{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+}
+.head .container .left{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 40px;
+}
+.head .container .left p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 10px;
+}
+.head .container .right{
+    display: flex;
+}
+.head .container .right button{
+    border: none;
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* ================================================================================ */
+
+header{
+    width: 100%;
+    border-bottom: 1px solid black;
+
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+}
+.logo, nav ul li a, label{
+    color:black;
+}
+
+nav ul{
+    display: flex;
+    /* gap: 0.1rem; */
+    height: 100vh;
+    align-items: right;
+
+}
+
+nav ul li{
+    height: 50px;
+    /* border-bottom: 1px solid black; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    position: relative;
+    width: 100%;
+}
+@media screen and (max-width:1000px) {
+nav ul li{
+    margin-left: 0px;
+
+}
+
+}
+nav ul li a{
+    text-decoration: none;
+    transition: .5s ease;
+    font-size: 100%;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: rgb(145, 140, 140);
+    cursor: pointer;
+}
+    label{
+        display: block;
+    }
+    nav{
+        position: absolute;
+        background: #ffff;
+        top: -40px;
+        left: -20px;
+        /* width: 150px; */
+        padding: 10px;
+        border-radius: 5px;
+        visibility: hidden;
+        opacity: 0;
+        transition: .3s ease;
+    }
+    nav ul li a, nav label{
+        color: black;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 25%;
+        height: 0.15rem;
+        background-color: black;
+        transition: 0.4s;
+        transform: scaleX(0);
+    }
+    nav ul li:hover::before{
+        transform: scaleX(1);
+    }
+    nav label{
+        text-align: right;
+    }
+    
+    input:checked~nav{
+        visibility: visible;
+        opacity: 1;
+        width: 25%;
+        z-index: 23;
+    }
+    nav ul li::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 25%;
+        height: 0.15rem;
+        background-color: black;
+        transition: 0.4s;
+        transform: scaleX(0);
+    }
+    nav ul li:hover::before{
+        transform: scaleX(1);
+    }
+header .container{
+    display: flex;
+}
+
+.acer{
+    width: 10%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.acer i{
+    font-size: 1.3rem;
+
+}
+.img{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user{
+    width: 10%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.user i{
+    padding: 9px;
+    font-size: 1.3rem;
+}
+.icon{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+footer .foot .icon .icon-card i{
+    color: #ffff;
+    transition: ease .5s;
+    font-size: 2rem;
+}
+.container{
+    flex-wrap: wrap;
+}
+ .icon .icon-card i:hover{
+    color: #1ecb15;
+}
+#log-btn{
+    display: none;
+  }
+  @media screen and (max-width:1000px) {
+    #log-btn{
+      display: block;
+      text-align: left;
+    }
+    #log-head-btn{
+      display: none;
+    }
+  }
+
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    margin: 20px auto;
+    transform: translate(-50%, -55%);
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box p:first-child {
+    margin: 0 0 30px;
+    padding: 0;
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black; 
+    outline: none;
+    background: transparent;
+  }
+  
+  .login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: black;
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 3px
+  }
+  
+  .login-box a:hover {
+    background: blue;
+    color: #272727;
+    border-radius: 5px;
+  }
+  
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+  
+  .login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #fff);
+    animation: btn-anim1 1.5s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+  
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #fff);
+    animation: btn-anim2 1.5s linear infinite;
+    animation-delay: .375s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+  
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #fff);
+    animation: btn-anim3 1.5s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+  
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #fff);
+    animation: btn-anim4 1.5s linear infinite;
+    animation-delay: 1.125s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+  
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+  
+  .login-box p:last-child {
+    color: black;
+    font-size: 14px;
+  }
+  
+  .login-box a.a2 {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .login-box a.a2:hover {
+    background: transparent;
+    color: black;
+    border-radius: 5px;
+  }
+/*             =============    mode       =============== */
+#modeBtn {
+  display: flex;
+  position: fixed;
+  top: 120px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#modeBtn:hover {
+  background-color: #555;
+}
+body .dark {
+  background-color: black;
+  color: #fff;
+}
+body .light #foot ul li a{
+  color: black;
+}
+body .dark #foot ul li a{
+  background-color: black;
+  color: #fff;
+}
+body .dark li{
+  color: #fff;
+}
+body .dark #myBtn{
+  background-color: #fff;
+  color: black;
+}
+body .dark header{
+  color: #fff;
+  background-color: black;
+  border-bottom: 1px solid #fff;
+  border-top: 0.1px solid #4e4949;
+}
+body .dark header .container .acer i{
+  color: #fff;
+  background-color: black;
+}
+body .dark input:checked~nav{
+  color: #fff;
+  background-color: black;
+}
+body .dark input:checked~nav ul li a{
+  color: #fff;
+}
+body .dark .container form label{
+  color: #fff;
+}
+body .dark #shopimg{
+  filter: invert(1);
+  object-fit:contain;
+}
+body .dark #footer-loqo-dark{
+  filter: invert(1);
+  object-fit:contain;
+}
+body .light #footer-loqo-dark{
+  object-fit:contain;
+}
+body .dark #search-dark{
+  color: #fff;
+}
+body .light #search-dark{
+  color: black;
+}
